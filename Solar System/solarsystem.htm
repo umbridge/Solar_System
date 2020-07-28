@@ -1,0 +1,47 @@
+<html>
+<head>
+<script type="text/javascript">
+function writeText(txt)
+{
+document.getElementById("desc").innerHTML=txt;
+}
+</script>
+</head>
+
+<body>
+<img src="images/solar.png" width="1300" height="600"
+alt="Planets" usemap="#planetmap" />
+
+<map name="planetmap">
+<area shape ="rect" coords ="0,0,170,600"
+href ="sun.htm" target ="_blank" alt="Sun" />
+
+<area shape ="circle" coords ="290,280,8"
+href ="mercury.htm" target ="_blank" alt="Mercury" />
+
+<area shape ="circle" coords ="350,280,8"
+href ="venus.htm" target ="_blank" alt="Venus" />
+
+<area shape ="circle" coords ="430,280,9"
+href ="earth.htm" target ="_blank" alt="Earth" />
+
+<area shape ="circle" coords ="500,280,8"
+href ="mars.htm" target ="_blank" alt="Mars" />
+
+<area shape ="circle" coords ="640,280,88"
+href ="jupiter.htm" target ="_blank" alt="Jupiter" />
+
+<area shape ="circle" coords ="880,280,65"
+href ="saturn.htm" target ="_blank" alt="Saturn" />
+
+<area shape ="circle" coords ="1030,280,30"
+href ="uranus.htm" target ="_blank" alt="Uranus" />
+
+<area shape ="circle" coords ="1135,280,30"
+href ="neptune.htm" target ="_blank" alt="Neptune" />
+</map>
+
+<p id="desc"></p>
+
+</body>
+</html>
